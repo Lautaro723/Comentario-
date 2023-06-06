@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sistema de Comentarios</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>Sistema de Comentarios</h1>
+    
+    <div id="comentarios">
+        <!-- Aquí se cargarán los comentarios -->
+    </div>
+    
+    <h2>Agregar un comentario:</h2>
+    <form id="formulario" method="POST" action="guardar_comentario.php">
+        <input type="text" name="nombre" placeholder="Nombre" required>
+        <textarea name="contenido" placeholder="Comentario" required></textarea>
+        <input type="submit" value="Publicar comentario">
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

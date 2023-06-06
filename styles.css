@@ -1,0 +1,14 @@
+/* Estilos para los comentarios */
+.comentario {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.comentario h3 {
+    margin: 0;
+}
+
+.comentario p {
+    margin: 5px 0;
+}
